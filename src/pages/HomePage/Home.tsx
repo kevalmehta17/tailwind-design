@@ -8,7 +8,7 @@ import Testimonial from "./components/Testimonial/Testimonial";
 
 const Home = () => {
   return (
-    <div className="flex flex-col">
+    <div className="flex flex-col  gap-5 md:gap-9  lg:gap-16 xl:gap-24  ">
       <Navbar />
       <Hero />
       <AboutUs />

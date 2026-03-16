@@ -1,3 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:...");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  body {
+    font-family: "Roboto", sans-serif;
+  }
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+}
+@layer base {
+  img {
+    @apply max-w-full h-auto;
+  }
+}
+/* 
+@layer components {
+  .container-custom {
+    @apply px-5;
+  }
+  @screen lg {
+    .container-custom {
+      @apply px-[75px] pt-[50px] bg-white;
+    }
+  }
+  @screen md {
+    .container-custom {
+      @apply px-8;
+    }
+  }
+} */
+
+:root {
+  --white: #ffffff;
+}
