@@ -10,17 +10,17 @@ const Hero = () => {
   return (
     <div
       id="home"
-      className="flex w-full flex-col gap-12 md:gap-[72px] xl:gap-[100px]"
+      className="flex w-full flex-col gap-12 sm:gap-[72px] lg:gap-[100px]"
     >
       {/* TOP HERO */}
       <div
-        className="flex flex-col justify-between rounded-[20px] bg-[var(--hero-background-primary)] bg-left-bottom bg-no-repeat md:flex-row md:pr-6 xl:pr-0"
+        className="flex flex-col justify-between rounded-[20px] bg-[var(--hero-background-primary)] bg-left-bottom bg-no-repeat md:flex-row md:pr-6 lg:pr-0"
         style={{ backgroundImage: `url(${mainBackground})` }}
       >
         {/* LEFT */}
         <div className="flex w-full flex-col items-center justify-center gap-10 px-1 py-[62px] sm:px-10 sm:py-20 md:w-auto md:flex-1 md:max-w-[520px] md:items-start md:px-10 md:py-[72px] md:gap-7 xl:max-w-[570px] xl:gap-10 xl:py-[106.5px] xl:pl-[60px] xl:pr-0">
           <div className="flex flex-col gap-[22px]">
-            <h1 className="flex flex-col text-[45px] text-[var(--heading-primary)] md:text-[52px] xl:text-[60px]">
+            <h1 className="flex flex-col text-[45px] text-[var(--heading-primary)] sm:text-[52px] lg:text-[60px]">
               <span className="inline-flex items-center justify-center leading-none tracking-[-0.01em] md:justify-start">
                 Glow Beyond
                 <img
@@ -29,11 +29,11 @@ const Hero = () => {
                   className="hidden md:block md:h-[38px] md:w-[38px] md:pt-1 xl:h-[45px] xl:w-[45px] xl:pt-[7px]"
                 />
               </span>
-              <span className="pt-[11px] text-center md:pl-[160px] md:text-left xl:pl-[236px]">
+              <span className="pt-[11px] text-center md:pl-[160px] md:text-left lg:pl-[236px]">
                 Expectations
               </span>
             </h1>
-            <p className="max-w-[24ch] pt-4 text-center text-[18px] leading-[125%] text-[var(--text-primary)] md:text-left md:text-[24px] xl:text-[30px] xl:leading-[120%] xl:tracking-[-0.01em]">
+            <p className="max-w-[24ch] pt-4 text-center text-[18px] leading-[125%] text-[var(--text-primary)] sm:text-[24px] md:text-left lg:text-[30px] lg:leading-[120%] lg:tracking-[-0.01em]">
               Clean, effective, and cruelty-free skincare made to deliver
               visible results.
             </p>
@@ -59,11 +59,11 @@ const Hero = () => {
         </div>
       </div>
       {/* BOTTOM HERO */}
-      <div className="flex flex-col py-[30px] px-[16px] bg-[var(--hero-background-secondary)] md:py-40px md:px-30px xl:py-[40px] xl:px-[50px]">
+      <div className="flex flex-col py-[30px] px-[16px] bg-[var(--hero-background-secondary)] md:py-[40px] md:px-[30px] xl:py-[40px] xl:px-[50px]">
         <h2 className="text-[24px] text-[var(--heading-primary)] leading-[100%] tracking-[-0.01em]  sm:text-[40px] xl:font-normal xl:text-[50px]">
           Why Choose Xtragleam?
         </h2>
-        <div className="flex flex-col text-start gap-[24px] pt-[16px] sm:pt-[26px] md:pt-[32px] md:gap-[18px]  md:flex-row  xl:pt-[50px]xl:gap-[24px]">
+        <div className="flex flex-col text-start gap-[24px] pt-[16px] sm:pt-[26px] md:pt-[32px] md:gap-[18px]  md:flex-row  xl:pt-[50px] xl:gap-[24px]">
           <div className="w-full md:w-[50%] ">
             <img
               src={AcneIssue}
