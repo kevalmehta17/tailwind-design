@@ -13,7 +13,7 @@ const Hero = () => {
       className="flex w-full flex-col gap-12 sm:gap-[72px] lg:gap-[100px]"
     >
       {/* TOP HERO */}
-      <div
+        <div
         className="flex flex-col justify-between rounded-[20px] bg-[var(--hero-background-primary)] bg-left-bottom bg-no-repeat md:flex-row md:pr-6 lg:pr-0"
         style={{ backgroundImage: `url(${mainBackground})` }}
       >

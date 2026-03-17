@@ -8,6 +8,7 @@ import Testimonial from './components/Testimonial/Testimonial';
 
 const Home = () => {
   return (
+    //TODO: GAP ISSUE
     <div className="flex flex-col  gap-5 md:gap-9  lg:gap-16 xl:gap-24  ">
       <Navbar />
       <Hero />
