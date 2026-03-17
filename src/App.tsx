@@ -3,7 +3,7 @@ import Home from "./pages/HomePage/Home"
 function App() {
 
   return (
-    <div className="px-5 md:px-8 xl:px-[75px] xl:py-[50px]">
+    <div className="pb-0 px-5 py-12 sm:px-8 md:px-[75px] md:pt-[50px] ">
       <Home />
     </div>
   )

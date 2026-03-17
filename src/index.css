@@ -39,4 +39,7 @@
 
 :root {
   --white: #ffffff;
+  --light-gray: #EFEFEF;
+  --text-primary: #121212;
+  --text-secondary: #545454;
 }
