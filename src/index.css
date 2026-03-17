@@ -41,6 +41,7 @@
   --white: #ffffff;
   --light-gray: #EFEFEF;
   --hero-background-primary: #fff6fd;
+  --hero-background-secondary:#f0f0f0;
   --heading-primary:#000000;
   --button-primary: #000000;
   --button-secondary: var(--white);
@@ -49,5 +50,6 @@
   --border-secondary: #cfcfcf;
   --text-primary: #121212;
   --text-secondary: #545454;
-  --hero-background-secondary:#f0f0f0;
+  --about-text-primary: #333333;
+  --badge-background: #f8f9fe;
 }
