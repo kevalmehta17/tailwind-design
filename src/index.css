@@ -40,11 +40,14 @@
 :root {
   --white: #ffffff;
   --light-gray: #EFEFEF;
-  --hero-background: #fff6fd;
+  --hero-background-primary: #fff6fd;
   --heading-primary:#000000;
   --button-primary: #000000;
+  --button-secondary: var(--white);
   --button-text: var(--white);
   --border-primary: #000000;
+  --border-secondary: #cfcfcf;
   --text-primary: #121212;
   --text-secondary: #545454;
+  --hero-background-secondary:#f0f0f0;
 }
