@@ -31,7 +31,7 @@ const Footer = () => {
           <div
             className="
               flex items-center
-              bg-[var(--bg-footer-primary)]
+              bg-gray-light
               rounded-[5px]
               p-[1px]
               min-h-[38px] md:min-h-[44px]
@@ -66,7 +66,7 @@ const Footer = () => {
       </div>
 
       {/* Divider */}
-      <hr className=" w-full border-solid border-[var(--border-footer-primary)]" />
+      <hr className=" w-full border-solid border-gray-dark" />
 
       {/* Copyright */}
       <div

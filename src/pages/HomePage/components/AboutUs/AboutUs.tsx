@@ -9,7 +9,7 @@ const AboutUs = () => {
     >
       {/* LEFT SIDE */}
       <div className="flex min-h-full flex-col gap-[12px] pl-[5px] sm:gap-[18px] md:gap-[24px]">
-        <span className="max-h-[52px] max-w-fit rounded-[4px] border border-black bg-[var(--bg-aboutus-primary)] px-[12px] py-[6px] text-[12px] font-semibold leading-[18px] text-black sm:px-[20px] sm:py-[10px] sm:text-base lg:px-[24px] lg:py-[12px] lg:text-[18px] lg:leading-[28px]">
+        <span className="max-h-[52px] max-w-fit rounded-[4px] border border-black bg-gray-50 px-[12px] py-[6px] text-[12px] font-semibold leading-[18px] text-black sm:px-[20px] sm:py-[10px] sm:text-base lg:px-[24px] lg:py-[12px] lg:text-[18px] lg:leading-[28px]">
           ABOUT US
         </span>
 
@@ -26,32 +26,32 @@ const AboutUs = () => {
 
         {/* Stats */}
         <div className="mt-auto grid grid-cols-2 gap-[24px]">
-          <div className="min-h-[142px] w-full rounded-[4px] bg-[var(--bg-aboutUs-secondary)] p-[16px]">
-            <h3 className="h-[28px] w-[70px] text-[24px] font-semibold text-[var(--text-aboutUs-primary)]">
+          <div className="min-h-[142px] w-full rounded-[4px] bg-gray-100 p-[16px]">
+            <h3 className="h-[28px] w-[70px] text-[24px] font-semibold text-gray-700">
               178K+
             </h3>
-            <p className="pt-[4px] text-base font-normal leading-[24px] tracking-normal text-[var(--text-aboutUs-primary)]">
+            <p className="pt-[4px] text-base font-normal leading-[24px] tracking-normal text-gray-700">
               Lorem ipsum dolor amet, consectetur adipiscing elit. Faucibus in
               libero.
             </p>
           </div>
 
-          <div className="min-h-[142px] w-full rounded-[4px] bg-[var(--bg-aboutUs-secondary)] p-[16px]">
-            <h3 className="h-[28px] w-[70px] text-[24px] font-semibold text-[var(--text-aboutUs-primary)]">
+          <div className="min-h-[142px] w-full rounded-[4px] bg-gray-100  p-[16px]">
+            <h3 className="h-[28px] w-[70px] text-[24px] font-semibold text-gray-700">
               362
             </h3>
-            <p className="pt-[4px] text-base font-normal leading-[24px] tracking-normal text-[var(--text-aboutUs-primary)]">
+            <p className="pt-[4px] text-base font-normal leading-[24px] tracking-normal text-gray-700">
               Lorem ipsum dolor amet, consectetur adipiscing elit.
             </p>
           </div>
         </div>
 
-        <div className="flex min-h-[145px] w-full items-center bg-[var(--bg-aboutUs-secondary)]">
+        <div className="flex min-h-[145px] w-full items-center bg-gray-100">
           <div className="flex-1">
-            <h3 className="w-full pl-[24px] pt-[16px] text-[24px] font-semibold leading-[28px] tracking-normal text-[var(--text-aboutUs-primary)]">
+            <h3 className="w-full pl-[24px] pt-[16px] text-[24px] font-semibold leading-[28px] tracking-normal text-gray-700">
               Title
             </h3>
-            <p className="pl-[24px] text-base font-normal leading-[24px] tracking-normal text-[var(--text-aboutUs-primary)]">
+            <p className="pl-[24px] text-base font-normal leading-[24px] tracking-normal text-gray-700">
               Lorem ipsum dolor amet, consectetur adipiscing elit. Faucibus in
               libero.
             </p>

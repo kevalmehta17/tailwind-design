@@ -65,7 +65,7 @@ const OfferBanner = () => {
 
       <div
         className="
-          bg-white border border-[var(--border-offerBanner-primary)]
+          bg-white border border-gray-400
           rounded-[40px]
           lg:rounded-[71.38px]
         "

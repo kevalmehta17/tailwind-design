@@ -9,7 +9,7 @@ import Search from "../../assets/icons/searchIcon.svg";
 import { useState } from "react";
 
 const categoryButton =
-  "text-[18px] font-light bg-[var(--bg-secondary)] text-[var(--text-primary)] px-[15px] py-[10px] rounded-[5px] h-[45px] leading-none tracking-[0.2px] border-0";
+  "text-[18px] font-light bg-gray-100 text-gray-800 px-[15px] py-[10px] rounded-[5px] h-[45px] leading-none tracking-[0.2px] border-0";
 
 const categories = ["Women", "Men", "Kiddies", "New", "Popular"];
 
@@ -43,8 +43,8 @@ const Navbar = () => {
         text-[25px] font-light underline-offset-[6px]
        ${
          active === item.path
-           ? "text-[var(--text-primary)] underline"
-           : "text-[var(--text-secondary)] hover:text-[var(--text-interactive)] hover:underline"
+           ? "text-gray-800 underline"
+           : "text-gray-600 hover:text-gray-900 hover:underline"
        }
       `}
             >

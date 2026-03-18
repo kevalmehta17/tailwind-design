@@ -2,7 +2,7 @@ import person1 from "../assets/image/person1.png"
 import person2 from "../assets/image/person2.png";
 import person3 from "../assets/image/person3.png";
 
-export const allReviews: {
+ const allReviews: {
   id: number;
   imageSrc: string;
   reviewHeading: string;
@@ -34,3 +34,5 @@ export const allReviews: {
     name: "Sarah A., Verified Buyer",
   },
 ];
+
+export default allReviews;

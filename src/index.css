@@ -25,48 +25,44 @@
   --white: #ffffff;
   --black: #000000;
   /* Navbar */
-   --text-primary: #2a2a2a;
+  --text-primary: #2a2a2a;
   --text-secondary: #545454;
   --text-interactive: #1f1f1f;
   --bg-secondary: #EFEFEF;
 
   /* About us */
-  --bg-aboutUs-primary : #f8f9fe;
+  /* --bg-aboutUs-primary : #f8f9fe;
   --bg-aboutUs-secondary: #f5f5f5;
-  --text-aboutUs-primary: #333333;
+  --text-aboutUs-primary: #333333; */
 
   /* BestSeller */
-  --bg-bestSeller-primary: #f0f0f0;
+  /* --bg-bestSeller-primary: #f0f0f0;
   --bg-bestSeller-secondary: #8b8b8b;
-  --bg-bestSeller-muted : #121212;
+  --bg-bestSeller-muted : #121212; */
   --border-bestSeller-primary:#0000001a;
   --border-bestSeller-secondary: #e4e4e4;
-  --star-primary:#faaa4c;
+  /* --star-primary:#faaa4c; */
   --text-bestSeller-primary: #00000069;
 
   /* Hero */
   --hero-background-primary: #fff6fd;
-  --hero-background-secondary:#f0f0f0;
-  --hero-heading-primary:#000000;
-  --hero-text-primary: #121212;
+  /* --hero-background-secondary:#f0f0f0; */
+  /* --hero-heading-primary:#000000; */
+  /* --hero-text-primary: #121212; */
   --hero-border-primary: #000000;
-  --hero-button-primary: #000000;
-  --hero-button-text: var(--white);
-  --hero-button-secondary: var(--white);
-  --hero-border-secondary: #cfcfcf;
+  /* --hero-button-primary: #000000; */
+  /* --hero-border-secondary: #cfcfcf; */
 
   /* OfferBanner */
   --bg-offerBanner-primary: linear-gradient(261.99deg,
     #d1068c -18.97%,
     #1310a6 43.5%,
     #7e1b5c 102.32%);
-    --border-offerBanner-primary: #cfcfcf;
     /* Testimonial */
-    --bg-testimonial-primary: #f0f0f0;
 
     /* Footer */
-    --bg-footer-primary: #E9E9E9; 
-    --border-footer-primary: #727272;
+    /* --bg-footer-primary: #E9E9E9; 
+    --border-footer-primary: #727272; */
 
   --light-gray: #EFEFEF;
   --border-muted:#8b8b8b;
@@ -74,5 +70,5 @@
   --about-text-primary: #333333;
   --bestSeller-text-primary:#000000;
   --badge-background: #f8f9fe;
-  --rating-color: #faaa4c;
+  /* --rating-color: #faaa4c; */
 }

@@ -1,4 +1,4 @@
-import { allReviews } from "../../../../constants/AllReviews";
+import ALL_REVIEWS from "../../../../constants/ALL_REVIEWS";
 
 interface ReviewCardProps {
   imageSrc: string;
@@ -39,13 +39,13 @@ const Testimonial = () => {
   return (
     <div
       id="spa"
-      className="bg-[var(--bg-testimonial-primary)] pb-3 pl-[10px] pt-6 sm:pb-5 sm:pl-4 sm:pt-[35px] md:pb-[21px] md:pt-[52px] lg:pl-[21px] lg:pt-[67px]"
+      className="bg-gray-200 pb-3 pl-[10px] pt-6 sm:pb-5 sm:pl-4 sm:pt-[35px] md:pb-[21px] md:pt-[52px] lg:pl-[21px] lg:pt-[67px]"
     >
       <h1 className="text-[24px] font-normal leading-none tracking-[-0.01em] text-black sm:text-[36px] md:text-[44px] max-[425px]:text-[30px] lg:text-[50px] max-[322px]:text-[24px]">
         Testimonial
       </h1>
       <div className="grid grid-cols-1 gap-[10px] pb-3 pr-[10px] pt-4 sm:gap-4 sm:pb-5 sm:pr-4 sm:pt-8 md:gap-[18px] md:pb-14 md:pt-[38px] lg:grid-cols-3 lg:gap-6 lg:pb-[87px] lg:pr-[21px] lg:pt-[50px]">
-        {allReviews.map((review) => (
+        {ALL_REVIEWS.map((review) => (
           <ReviewCard
             key={review.name}
             imageSrc={review.imageSrc}
