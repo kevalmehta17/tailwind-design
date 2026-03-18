@@ -39,7 +39,7 @@ const Testimonial = () => {
   return (
     <div
       id="spa"
-      className="bg-[#f0f0f0] pb-3 pl-[10px] pt-6 sm:pb-5 sm:pl-4 sm:pt-[35px] md:pb-[21px] md:pt-[52px] lg:pl-[21px] lg:pt-[67px]"
+      className="bg-[var(--bg-testimonial-primary)] pb-3 pl-[10px] pt-6 sm:pb-5 sm:pl-4 sm:pt-[35px] md:pb-[21px] md:pt-[52px] lg:pl-[21px] lg:pt-[67px]"
     >
       <h1 className="text-[24px] font-normal leading-none tracking-[-0.01em] text-black sm:text-[36px] md:text-[44px] max-[425px]:text-[30px] lg:text-[50px] max-[322px]:text-[24px]">
         Testimonial

@@ -35,7 +35,7 @@ const BestSeller = () => {
         {allProducts.map((product) => (
           <article
             key={product.id}
-            className="flex h-full flex-col rounded-[10px] border border-[#0000001a] bg-[#f0f0f0]"
+            className="flex h-full flex-col rounded-[10px] border border-[var(--border-bestSeller-primary)] bg-[var(--bg-bestSeller-primary)]"
           >
             {/* Main Product Card */}
             <div className="flex min-h-[286px] flex-1 flex-col justify-between px-5 py-[35px] max-[769px]:min-h-[248px] max-[769px]:px-4 max-[769px]:py-[26px] max-[426px]:min-h-[210px] max-[426px]:px-3 max-[426px]:py-[18px] max-[322px]:min-h-[180px] max-[322px]:px-[10px] max-[322px]:py-[14px]">
@@ -45,13 +45,13 @@ const BestSeller = () => {
                   <p className="mb-1.5 text-[20px] font-normal leading-[98%] tracking-[-0.01em] text-black max-[769px]:text-[18px] max-[769px]:leading-[95%] max-[426px]:text-[15px] max-[426px]:leading-[100%] max-[322px]:text-[13px]">
                     {product.badge}
                   </p>
-                  <span className="text-[20px] font-light leading-[98%] tracking-[-0.01em] text-[#faaa4c] max-[769px]:text-[18px] max-[769px]:leading-[95%] max-[426px]:text-[15px] max-[426px]:leading-[100%] max-[322px]:text-[13px]">
+                  <span className="text-[20px] font-light leading-[98%] tracking-[-0.01em] text-[var(--star-primary)] max-[769px]:text-[18px] max-[769px]:leading-[95%] max-[426px]:text-[15px] max-[426px]:leading-[100%] max-[322px]:text-[13px]">
                     ★★★★★
                   </span>
                 </div>
 
                 <Button
-                  className="inline-flex h-10 w-10 items-center justify-center rounded-[25px] border border-[#8b8b8b] bg-white max-[426px]:h-8 max-[426px]:w-8 max-[322px]:h-7 max-[322px]:w-7"
+                  className="inline-flex h-10 w-10 items-center justify-center rounded-[25px] border border-[var(--bg-bestSeller-secondary)] bg-white max-[426px]:h-8 max-[426px]:w-8 max-[322px]:h-7 max-[322px]:w-7"
                   aria-label={`Add ${product.name} to favorites`}
                 >
                   <img
@@ -73,13 +73,13 @@ const BestSeller = () => {
             </div>
 
             {/* Product Details */}
-            <div className="mt-auto flex items-end justify-between gap-4 border border-[#e4e4e4] bg-white px-5 py-8 max-[769px]:flex-col max-[769px]:items-start max-[769px]:gap-3 max-[769px]:px-4 max-[769px]:py-6 max-[426px]:gap-2 max-[426px]:px-3 max-[426px]:py-4 max-[322px]:gap-1.5 max-[322px]:px-[10px] max-[322px]:py-3">
+            <div className="mt-auto flex items-end justify-between gap-4 border border-[var(--border-bestSeller-secondary)] bg-white px-5 py-8 max-[769px]:flex-col max-[769px]:items-start max-[769px]:gap-3 max-[769px]:px-4 max-[769px]:py-6 max-[426px]:gap-2 max-[426px]:px-3 max-[426px]:py-4 max-[322px]:gap-1.5 max-[322px]:px-[10px] max-[322px]:py-3">
               <div className="flex min-w-0 flex-1 flex-col gap-1.5">
                 <h3 className="m-0 text-[16px] font-light leading-[120%] tracking-[-0.01em] text-black max-[769px]:text-[15px] max-[769px]:leading-[115%] max-[426px]:text-[14px] max-[322px]:text-[12px]">
                   {product.name}
                 </h3>
                 <div className="flex items-center gap-2 max-[426px]:gap-1.5">
-                  <span className="text-[16px] font-normal leading-[98%] tracking-[-0.01em] text-[#00000069] line-through max-[769px]:text-[15px] max-[769px]:leading-[95%] max-[426px]:text-[14px] max-[426px]:leading-[100%] max-[322px]:text-[12px]">
+                  <span className="text-[16px] font-normal leading-[98%] tracking-[-0.01em] text-[var(--text-bestSeller-primary)] line-through max-[769px]:text-[15px] max-[769px]:leading-[95%] max-[426px]:text-[14px] max-[426px]:leading-[100%] max-[322px]:text-[12px]">
                     {product.oldPrice}
                   </span>
                   <span className="text-[16px] font-normal leading-[98%] tracking-[-0.01em] text-black max-[769px]:text-[15px] max-[769px]:leading-[95%] max-[426px]:text-[14px] max-[426px]:leading-[100%] max-[322px]:text-[12px]">
@@ -88,7 +88,7 @@ const BestSeller = () => {
                 </div>
               </div>
 
-              <Button className="inline-flex min-h-10 items-center justify-center gap-[10px] rounded-[40px] border-none bg-[#121212] px-[10px] py-[5px] text-[14px] font-normal whitespace-nowrap text-white max-[769px]:min-h-9 max-[769px]:gap-2 max-[769px]:text-[13px] max-[426px]:min-h-8 max-[426px]:gap-1.5 max-[426px]:px-2 max-[426px]:py-1 max-[426px]:text-[12px] max-[322px]:min-h-7 max-[322px]:gap-1 max-[322px]:px-[7px] max-[322px]:py-[3px] max-[322px]:text-[11px]">
+              <Button className="inline-flex min-h-10 items-center justify-center gap-[10px] rounded-[40px] border-none bg-[var(--bg-bestSeller-muted)] px-[10px] py-[5px] text-[14px] font-normal whitespace-nowrap text-white max-[769px]:min-h-9 max-[769px]:gap-2 max-[769px]:text-[13px] max-[426px]:min-h-8 max-[426px]:gap-1.5 max-[426px]:px-2 max-[426px]:py-1 max-[426px]:text-[12px] max-[322px]:min-h-7 max-[322px]:gap-1 max-[322px]:px-[7px] max-[322px]:py-[3px] max-[322px]:text-[11px]">
                 <span>Add to Cart</span>
                 <img
                   src={BagIcon}

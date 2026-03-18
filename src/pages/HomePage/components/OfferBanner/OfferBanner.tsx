@@ -11,7 +11,7 @@ const OfferBanner = () => {
         md:py-[44px] md:px-[76px]
         lg:py-[50px] lg:px-[141px]
       "
-      style={{ background: "var(--offerBanner-background)" }}
+      style={{ background: "var(--bg-offerBanner-primary)" }}
     >
       {/* Heading */}
       <div className="flex flex-col items-center text-center gap-[7.5px] sm:gap-[9px] md:gap-[11px] lg:gap-[15px]">

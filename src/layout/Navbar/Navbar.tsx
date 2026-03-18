@@ -9,7 +9,7 @@ import Search from "../../assets/icons/searchIcon.svg";
 import { useState } from "react";
 
 const categoryButton =
-  "text-[18px] font-light bg-[var(--light-gray)] text-[var(--text-primary)] px-[15px] py-[10px] rounded-[5px] h-[45px] leading-none tracking-[0.2px] border-0";
+  "text-[18px] font-light bg-[var(--bg-secondary)] text-[var(--text-primary)] px-[15px] py-[10px] rounded-[5px] h-[45px] leading-none tracking-[0.2px] border-0";
 
 const categories = ["Women", "Men", "Kiddies", "New", "Popular"];
 
@@ -21,7 +21,6 @@ const navItems = [
   { path: "#contact", label: "Contact" },
 ];
 
-// const currentHash = window.location.hash || "#home";
 const Navbar = () => {
   const [active, setActive] = useState("#home");
 
@@ -42,11 +41,11 @@ const Navbar = () => {
               onClick={() => setActive(item.path)}
               className={`
         text-[25px] font-light underline-offset-[6px]
-        ${
-          active === item.path
-            ? "text-[#2a2a2a] underline"
-            : "text-[#545454] hover:text-[#1f1f1f] hover:underline"
-        }
+       ${
+         active === item.path
+           ? "text-[var(--text-primary)] underline"
+           : "text-[var(--text-secondary)] hover:text-[var(--text-interactive)] hover:underline"
+       }
       `}
             >
               {item.label}

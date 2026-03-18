@@ -20,7 +20,7 @@ const Hero = () => {
         {/* LEFT */}
         <div className="flex w-full flex-col items-center justify-center gap-10 px-1 py-[62px] sm:px-10 sm:py-20 md:w-auto md:flex-1 md:max-w-[520px] md:items-start md:px-10 md:py-[72px] md:gap-7 xl:max-w-[570px] xl:gap-10 xl:py-[106.5px] xl:pl-[60px] xl:pr-0">
           <div className="flex flex-col gap-[22px]">
-            <h1 className="flex flex-col text-[45px] text-[var(--heading-primary)] sm:text-[52px] lg:text-[60px]">
+            <h1 className="flex flex-col text-[45px] text-[var(--hero-heading-primary)] sm:text-[52px] lg:text-[60px]">
               <span className="inline-flex items-center justify-center leading-none tracking-[-0.01em] md:justify-start">
                 Glow Beyond
                 <img
@@ -33,13 +33,13 @@ const Hero = () => {
                 Expectations
               </span>
             </h1>
-            <p className="max-w-[24ch] pt-4 text-center text-[18px] leading-[125%] text-[var(--text-primary)] sm:text-[24px] md:text-left lg:text-[30px] lg:leading-[120%] lg:tracking-[-0.01em]">
+            <p className="max-w-[24ch] pt-4 text-center text-[18px] leading-[125%] text-[var(--hero-text-primary)] sm:text-[24px] md:text-left lg:text-[30px] lg:leading-[120%] lg:tracking-[-0.01em]">
               Clean, effective, and cruelty-free skincare made to deliver
               visible results.
             </p>
           </div>
-          <div className="flex items-center rounded-[70px] border border-solid border-[var(--border-primary)] bg-[var(--button-primary)] px-4 py-2 md:justify-around lg:max-w-[230px] lg:gap-0.5 lg:px-5 lg:py-2.5">
-            <Button className="border-none bg-transparent text-[var(--button-text)] text-[24px] font-normal leading-[120%] tracking-[-0.01em] md:text-[30px] xl:text-[32px]">
+          <div className="flex items-center rounded-[70px] border border-solid border-[var(--hero-border-primary)] bg-[var(--hero-button-primary)] px-4 py-2 md:justify-around lg:max-w-[230px] lg:gap-0.5 lg:px-5 lg:py-2.5">
+            <Button className="border-none bg-transparent text-[var(--hero-button-text)] text-[24px] font-normal leading-[120%] tracking-[-0.01em] md:text-[30px] xl:text-[32px]">
               Shop Now
             </Button>
             <img
@@ -60,7 +60,7 @@ const Hero = () => {
       </div>
       {/* BOTTOM HERO */}
       <div className="flex flex-col py-[30px] px-[16px] bg-[var(--hero-background-secondary)] md:py-[40px] md:px-[30px] xl:py-[40px] xl:px-[50px]">
-        <h2 className="text-[24px] text-[var(--heading-primary)] leading-[100%] tracking-[-0.01em]  sm:text-[40px] xl:font-normal xl:text-[50px]">
+        <h2 className="text-[24px] text-[var(--hero-heading-primary)] leading-[100%] tracking-[-0.01em]  sm:text-[40px] xl:font-normal xl:text-[50px]">
           Why Choose Xtragleam?
         </h2>
         <div className="flex flex-col text-start gap-[24px] pt-[16px] sm:pt-[26px] md:pt-[32px] md:gap-[18px]  md:flex-row  xl:pt-[50px] xl:gap-[24px]">
@@ -72,17 +72,17 @@ const Hero = () => {
             />
           </div>
           <div className="w-full flex flex-col gap-[11px] px-[5px] py-[5px] sm:gap-[16px] md:gap-[18px] md:w-1/2 xl:gap-[30px]">
-            <h3 className="text-[20px] leading-[120%] tracking-[-0.01em] text-[var(--heading-primary)] font-normal sm:text-[26px] md:text-[24px] xl:text-[28px]">
+            <h3 className="text-[20px] leading-[120%] tracking-[-0.01em] text-[var(--hero-heading-primary)] font-normal sm:text-[26px] md:text-[24px] xl:text-[28px]">
               Struggling with acne issues?
             </h3>
-            <p className="font-light leading-[150%] tracking-[-0.01em] text-[var(--heading-primary)] text-[14px] sm:text-[20px] md:text-[20px] xl:text-[24px]">
+            <p className="font-light leading-[150%] tracking-[-0.01em] text-[var(--hero-heading-primary)] text-[14px] sm:text-[20px] md:text-[20px] xl:text-[24px]">
               At Xtragleam Skincare, we understand how frustrating acne can be,
               and we’re here to help you regain confidence in your skin. Our
               carefully designed recovery process targets acne at its root while
               soothing and nourishing your skin for long-term health.
             </p>
-            <div className="flex flex-row items-center gap-[7px] border-[0.71px] border-solid border-[var(--border-secondary)] rounded-[71px] w-fit mt-[18px] px-[15.5px] py-[7.5px] bg-[var(--button-secondary)] xl:px-[21px] xl:py-[10px] xl:mt-0 sm:mt-0 sm:px-[18.5px] sm:py-[8.5px] md:px-[16px] md:py-[8px]">
-              <Button className="text-[22px]  text-[var(--button-primary)] leading-[120%] tracking-[-0.01em] sm:text-[29px] md:text-[26px] ">
+            <div className="flex flex-row items-center gap-[7px] border-[0.71px] border-solid border-[var(--hero-border-secondary)] rounded-[71px] w-fit mt-[18px] px-[15.5px] py-[7.5px] bg-[var(--hero-button-secondary)] xl:px-[21px] xl:py-[10px] xl:mt-0 sm:mt-0 sm:px-[18.5px] sm:py-[8.5px] md:px-[16px] md:py-[8px]">
+              <Button className="text-[22px]  text-[var(--hero-button-primary)] leading-[120%] tracking-[-0.01em] sm:text-[29px] md:text-[26px] ">
                 Explore Our Range
               </Button>
               <img
