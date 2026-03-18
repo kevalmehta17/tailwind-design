@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:...");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 
 @tailwind base;
 @tailwind components;
@@ -20,22 +20,6 @@
     @apply max-w-full h-auto;
   }
 }
-/* 
-@layer components {
-  .container-custom {
-    @apply px-5;
-  }
-  @screen lg {
-    .container-custom {
-      @apply px-[75px] pt-[50px] bg-white;
-    }
-  }
-  @screen md {
-    .container-custom {
-      @apply px-8;
-    }
-  }
-} */
 
 :root {
   --white: #ffffff;
@@ -76,9 +60,13 @@
     #d1068c -18.97%,
     #1310a6 43.5%,
     #7e1b5c 102.32%);
-
+    --border-offerBanner-primary: #cfcfcf;
     /* Testimonial */
-    --bg-testimonial-primary: #f0f0f0
+    --bg-testimonial-primary: #f0f0f0;
+
+    /* Footer */
+    --bg-footer-primary: #E9E9E9; 
+    --border-footer-primary: #727272;
 
   --light-gray: #EFEFEF;
   --border-muted:#8b8b8b;

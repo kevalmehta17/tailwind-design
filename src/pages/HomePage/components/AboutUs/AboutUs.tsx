@@ -9,7 +9,7 @@ const AboutUs = () => {
     >
       {/* LEFT SIDE */}
       <div className="flex min-h-full flex-col gap-[12px] pl-[5px] sm:gap-[18px] md:gap-[24px]">
-        <span className="max-h-[52px] max-w-fit rounded-[4px] border border-black bg-[var(--bg-aboutus-primary)] px-[12px] py-[6px] text-[12px] font-semibold leading-[18px] text-black sm:px-[20px] sm:py-[10px] sm:text-[16px] lg:px-[24px] lg:py-[12px] lg:text-[18px] lg:leading-[28px]">
+        <span className="max-h-[52px] max-w-fit rounded-[4px] border border-black bg-[var(--bg-aboutus-primary)] px-[12px] py-[6px] text-[12px] font-semibold leading-[18px] text-black sm:px-[20px] sm:py-[10px] sm:text-base lg:px-[24px] lg:py-[12px] lg:text-[18px] lg:leading-[28px]">
           ABOUT US
         </span>
 
@@ -17,7 +17,7 @@ const AboutUs = () => {
           How much is your property worth now?
         </h2>
 
-        <p className="max-w-fit text-[14px] font-normal leading-[22px] tracking-normal text-[var(--text-aboutUs-primary)] lg:text-[16px] lg:leading-[24px]">
+        <p className="max-w-fit text-sm font-normal leading-[22px] tracking-normal text-[var(--text-aboutUs-primary)] lg:text-base lg:leading-[24px]">
           We have built our reputation as true local area experts. We have
           gained more knowledge about buyer interests, our neighborhood and the
           market than any other brand because we live locally and work for local
@@ -30,7 +30,7 @@ const AboutUs = () => {
             <h3 className="h-[28px] w-[70px] text-[24px] font-semibold text-[var(--text-aboutUs-primary)]">
               178K+
             </h3>
-            <p className="pt-[4px] text-[16px] font-normal leading-[24px] tracking-normal text-[var(--text-aboutUs-primary)]">
+            <p className="pt-[4px] text-base font-normal leading-[24px] tracking-normal text-[var(--text-aboutUs-primary)]">
               Lorem ipsum dolor amet, consectetur adipiscing elit. Faucibus in
               libero.
             </p>
@@ -40,7 +40,7 @@ const AboutUs = () => {
             <h3 className="h-[28px] w-[70px] text-[24px] font-semibold text-[var(--text-aboutUs-primary)]">
               362
             </h3>
-            <p className="pt-[4px] text-[16px] font-normal leading-[24px] tracking-normal text-[var(--text-aboutUs-primary)]">
+            <p className="pt-[4px] text-base font-normal leading-[24px] tracking-normal text-[var(--text-aboutUs-primary)]">
               Lorem ipsum dolor amet, consectetur adipiscing elit.
             </p>
           </div>
@@ -51,7 +51,7 @@ const AboutUs = () => {
             <h3 className="w-full pl-[24px] pt-[16px] text-[24px] font-semibold leading-[28px] tracking-normal text-[var(--text-aboutUs-primary)]">
               Title
             </h3>
-            <p className="pl-[24px] text-[16px] font-normal leading-[24px] tracking-normal text-[var(--text-aboutUs-primary)]">
+            <p className="pl-[24px] text-base font-normal leading-[24px] tracking-normal text-[var(--text-aboutUs-primary)]">
               Lorem ipsum dolor amet, consectetur adipiscing elit. Faucibus in
               libero.
             </p>

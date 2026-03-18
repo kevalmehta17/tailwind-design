@@ -31,9 +31,9 @@ const Footer = () => {
           <div
             className="
               flex items-center
-              bg-[#E9E9E9]
+              bg-[var(--bg-footer-primary)]
               rounded-[5px]
-              w-full max-w-[320px] lg:max-w-[340px]
+              p-[1px]
               min-h-[38px] md:min-h-[44px]
             "
           >
@@ -42,7 +42,7 @@ const Footer = () => {
               placeholder="Email"
               className="
                 flex-1 bg-transparent border-none outline-none
-                text-[13px] md:text-[16px]
+                text-[13px] md:text-base
                 px-[12px] md:px-[24px]
                 h-[38px] md:h-[44px]
               "
@@ -50,13 +50,13 @@ const Footer = () => {
 
             <Button
               className="
-                bg-black text-white border-none m-[2px]
+                bg-black text-white border-none m-0
                 rounded-[5px]
                 min-w-[72px] md:min-w-[88px]
                 h-[38px] md:h-[44px]
-                text-[13px] md:text-[16px]
+                text-[13px] md:text-base
                 font-medium
-                px-[12px] md:px-[18px]
+                md:px-[18px]
               "
             >
               Submit
@@ -66,13 +66,13 @@ const Footer = () => {
       </div>
 
       {/* Divider */}
-      <hr className="border-[1px] w-screen border-solid border-[#727272]" />
+      <hr className=" w-full border-solid border-[var(--border-footer-primary)]" />
 
       {/* Copyright */}
       <div
         className="
             text-center max-w-[1200px] mx-auto w-full
-            text-[11px] sm:text-[13px] md:text-[16px] lg:text-[17px]
+            text-[11px] sm:text-[13px] md:text-base lg:text-[17px]
             py-[18px] sm:py-[22px] md:py-[26px]
           "
       >

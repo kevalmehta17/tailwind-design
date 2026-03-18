@@ -39,7 +39,7 @@ const Navbar = () => {
               key={item.path}
               path={item.path}
               onClick={() => setActive(item.path)}
-              className={`
+              className={` md:text-[20px]
         text-[25px] font-light underline-offset-[6px]
        ${
          active === item.path

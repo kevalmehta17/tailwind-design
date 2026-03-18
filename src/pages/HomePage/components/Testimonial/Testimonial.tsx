@@ -19,14 +19,14 @@ const ReviewCard = ({
         <img
           src={imageSrc}
           alt={`${name} Profile Picture`}
-          className="h-full w-full object-cover object-top"
+          className="h-full w-full object-cover object-top rounded-full"
         />
       </div>
       <div className="flex w-full flex-col items-start gap-2 pt-3 sm:gap-[10px] sm:pt-5">
         <h3 className="m-0 text-[15px] font-normal leading-[120%] tracking-[-0.01em] text-black sm:text-[21px] md:text-[22px] lg:text-[24px] max-[425px]:text-[18px]">
           {reviewHeading}
         </h3>
-        <p className="m-0 text-[13px] font-light leading-[145%] tracking-[-0.01em] text-black sm:text-[18px] lg:text-[20px] lg:leading-[150%] max-[425px]:text-[16px]">
+        <p className="m-0 text-[13px] font-light leading-[145%] tracking-[-0.01em] text-black sm:text-[18px] lg:text-[20px] lg:leading-[150%] max-[425px]:text-base">
           {review}
           <strong className="font-normal"> – {name}</strong>
         </p>

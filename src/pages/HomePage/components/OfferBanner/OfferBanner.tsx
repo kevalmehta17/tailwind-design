@@ -13,7 +13,6 @@ const OfferBanner = () => {
       "
       style={{ background: "var(--bg-offerBanner-primary)" }}
     >
-      {/* Heading */}
       <div className="flex flex-col items-center text-center gap-[7.5px] sm:gap-[9px] md:gap-[11px] lg:gap-[15px]">
         <h1
           className="
@@ -41,7 +40,6 @@ const OfferBanner = () => {
         </h3>
       </div>
 
-      {/* Timer */}
       <div
         className="
           flex items-center justify-center text-center
@@ -57,17 +55,17 @@ const OfferBanner = () => {
             text-[26px]
             sm:text-[40px]
             md:text-[62px]
+            xl:text-[68px]
             lg:text-[86.67px]
           "
         >
-          Hurry, Offer Ends In 12hrs 30mins 56Seconds
+          Hurry, Offer Ends In 12hrs 30mins 56 Seconds
         </span>
       </div>
 
-      {/* Button */}
       <div
         className="
-          bg-white border border-[#cfcfcf]
+          bg-white border border-[var(--border-offerBanner-primary)]
           rounded-[40px]
           lg:rounded-[71.38px]
         "
