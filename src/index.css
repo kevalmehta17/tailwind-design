@@ -45,30 +45,13 @@
   --text-bestSeller-primary: #00000069;
 
   /* Hero */
-  --hero-background-primary: #fff6fd;
+  /* --hero-background-primary: #fff6fd; */
   /* --hero-background-secondary:#f0f0f0; */
-  /* --hero-heading-primary:#000000; */
-  /* --hero-text-primary: #121212; */
-  --hero-border-primary: #000000;
-  /* --hero-button-primary: #000000; */
-  /* --hero-border-secondary: #cfcfcf; */
+
 
   /* OfferBanner */
   --bg-offerBanner-primary: linear-gradient(261.99deg,
     #d1068c -18.97%,
     #1310a6 43.5%,
     #7e1b5c 102.32%);
-    /* Testimonial */
-
-    /* Footer */
-    /* --bg-footer-primary: #E9E9E9; 
-    --border-footer-primary: #727272; */
-
-  --light-gray: #EFEFEF;
-  --border-muted:#8b8b8b;
-  --text-secondary: #545454;
-  --about-text-primary: #333333;
-  --bestSeller-text-primary:#000000;
-  --badge-background: #f8f9fe;
-  /* --rating-color: #faaa4c; */
 }

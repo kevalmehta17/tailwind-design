@@ -1,7 +1,6 @@
-import xsBox from  "../assets/image/firstBottle.png"
+import xsBox from "../assets/image/firstBottle.png";
 import ProductRefined from "../assets/image/secondBottle.png";
 import ProductTop from "../assets/image/thirdBottle.png";
-
 
 const AllProducts: {
   id: number;

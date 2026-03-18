@@ -1,4 +1,4 @@
-import ALL_REVIEWS from "../../../../constants/ALL_REVIEWS";
+import allReviews from "../../../../constants/allReviews";
 
 interface ReviewCardProps {
   imageSrc: string;
@@ -45,7 +45,7 @@ const Testimonial = () => {
         Testimonial
       </h1>
       <div className="grid grid-cols-1 gap-[10px] pb-3 pr-[10px] pt-4 sm:gap-4 sm:pb-5 sm:pr-4 sm:pt-8 md:gap-[18px] md:pb-14 md:pt-[38px] lg:grid-cols-3 lg:gap-6 lg:pb-[87px] lg:pr-[21px] lg:pt-[50px]">
-        {ALL_REVIEWS.map((review) => (
+        {allReviews.map((review) => (
           <ReviewCard
             key={review.name}
             imageSrc={review.imageSrc}

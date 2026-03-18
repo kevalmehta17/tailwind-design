@@ -35,6 +35,7 @@ const Footer = () => {
               rounded-[5px]
               p-[1px]
               min-h-[38px] md:min-h-[44px]
+               bg-white
             "
           >
             <Input
@@ -45,6 +46,7 @@ const Footer = () => {
                 text-[13px] md:text-base
                 px-[12px] md:px-[24px]
                 h-[38px] md:h-[44px]
+               
               "
             />
 

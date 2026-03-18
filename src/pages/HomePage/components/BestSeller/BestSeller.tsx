@@ -1,8 +1,9 @@
-import Button from "../../../../components/Button";
-import Link from "../../../../components/Link";
-import ALL_PRODUCTS from "../../../../constants/ALL_PRODUCTS";
+
 import HeartIcon from "../../../../assets/icons/heart.svg";
 import BagIcon from "../../../../assets/icons/bag3.svg";
+
+import AllProducts from "../../../../constants/allProducts";
+import { Button, Link } from "@/components";
 
 const imageClassMap: Record<string, string> = {
   xsBoxImage:
@@ -32,7 +33,7 @@ const BestSeller = () => {
       </div>
 
       <div className="grid grid-cols-3 gap-[17px] max-[1200px]:grid-cols-2 max-[769px]:grid-cols-1">
-        {ALL_PRODUCTS.map((product) => (
+        {AllProducts.map((product) => (
           <article
             key={product.id}
             className="flex h-full flex-col rounded-[10px] border border-[var(--border-bestSeller-primary)] bg-gray-200"

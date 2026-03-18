@@ -3,10 +3,10 @@ import heart from "../../assets/icons/heart.svg";
 import profile from "../../assets/icons/profile.svg";
 import Logo from "../../assets/image/logo.png";
 import Categories from "../../assets/image/category.png";
-import Button from "../../components/Button";
-import Link from "../../components/Link";
+
 import Search from "../../assets/icons/searchIcon.svg";
 import { useState } from "react";
+import { Button, Link } from "../../components";
 
 const categoryButton =
   "text-[18px] font-light bg-gray-100 text-gray-800 px-[15px] py-[10px] rounded-[5px] h-[45px] leading-none tracking-[0.2px] border-0";
