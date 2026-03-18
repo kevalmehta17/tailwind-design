@@ -1,61 +1,88 @@
-import Bag from "../../assets/icons/bag2.svg";
-import heart from "../../assets/icons/heart.svg";
-import profile from "../../assets/icons/profile.svg";
-import Logo from "../../assets/image/logo.png";
-import Categories from "../../assets/image/category.png";
-import Button from "../../components/Button";
-import Link from "../../components/Link";
-import Search from "../../assets/icons/searchIcon.svg";
+import Bag from '../../assets/icons/bag2.svg';
+import heart from '../../assets/icons/heart.svg';
+import profile from '../../assets/icons/profile.svg';
+import Logo from '../../assets/image/logo.png';
+import Categories from '../../assets/image/category.png';
+import Button from '../../components/Button';
+import Link from '../../components/Link';
+import Search from '../../assets/icons/searchIcon.svg';
 
 const categoryButton =
-  "text-[18px] font-light bg-[var(--light-gray)] text-[var(--text-primary)] px-3 py-2 rounded-md h-[45px] leading-none tracing-[0.2px]";
+  'text-[18px] font-light bg-[var(--light-gray)] text-[var(--text-primary)] px-[15px] py-[10px] rounded-[5px] h-[45px] leading-none tracking-[0.2px] border-0';
 
-  const categories = ["Women", "Men", "Kiddies", "New", "Popular"];
+const categories = ['Women', 'Men', 'Kiddies', 'New', 'Popular'];
+
+const navItems = [
+  { path: '#home', label: 'Home' },
+  { path: '#shop', label: 'Shop' },
+  { path: '#spa', label: 'Spa' },
+  { path: '#about', label: 'About' },
+  { path: '#contact', label: 'Contact' },
+];
 
 const Navbar = () => {
   return (
-    <div className="w-full flex flex-col gap-8 xl:gap-8">
-      {/* For Top */}
-      <div className="flex flex-row justify-between">
-        <div>
-          <img
-            src={Logo}
-            alt="Logo"
-            className="w-40 md:max-w-60 sm:w-60 h-auto"
-          />
+    <div className="w-full flex flex-col gap-[clamp(12px,2vw,32px)]">
+      {/* Top Row */}
+      <div className="flex items-center justify-between">
+        {/* Logo */}
+        <div className="w-full max-w-[160px] sm:max-w-[240px]">
+          <img src={Logo} alt="Logo" className="w-full h-auto" />
         </div>
-        <div className="hidden md:flex flex-row md:gap-x-8 md:justify-around items-center text-[var(--text-secondary)] md:text-xl lg:text-2xl">
-          <Link path="#home">Home</Link>
-          <Link path="#shop">Shop</Link>
-          <Link path="#spa">Spa</Link>
-          <Link path="#about">About</Link>
-          <Link path="#contact">Contact</Link>
+
+        {/* Nav Links */}
+        <div className="hidden md:flex items-center gap-8">
+          {navItems.map((item, index) => (
+            <Link
+              key={item.path}
+              path={item.path}
+              className={`
+                text-[25px] font-light
+                ${
+                  index === 0
+                    ? 'text-[#2a2a2a] underline underline-offset-[6px]'
+                    : 'text-[#545454] hover:text-[#1f1f1f] hover:underline underline-offset-[6px]'
+                }
+              `}>
+              {item.label}
+            </Link>
+          ))}
         </div>
-        <div className="hidden md:flex flex-row gap-5">
-          <Button>
+
+        {/* Icons */}
+        <div className="hidden md:flex gap-[clamp(8px,1.5vw,20px)]">
+          <Button className="bg-transparent border-0 p-0">
             <img src={Bag} alt="bag" />
           </Button>
-          <Button>
+          <Button className="bg-transparent border-0 p-0">
             <img src={heart} alt="heart" />
           </Button>
-          <Button>
+          <Button className="bg-transparent border-0 p-0">
             <img src={profile} alt="profile" />
           </Button>
         </div>
-        <div className="md:hidden sm:flex">
-          <Button>
+
+        {/* Mobile Menu */}
+        <div className="block md:hidden">
+          <Button className="bg-transparent border-0 grid place-items-center p-[6px]">
             <img src={Categories} alt="Categories" />
           </Button>
         </div>
       </div>
-      {/* For Bottom */}
-      <div className="hidden md:flex md:flex-row justify-between">
-        <div className=" flex flex-row gap-3 ">
-         {categories.map((item) => (
-          <Button key={item} className={categoryButton}>{item}</Button>
-         ))}
+
+      {/* Bottom Row */}
+      <div className="hidden md:flex items-center justify-between">
+        {/* Categories */}
+        <div className="flex gap-2 sm:gap-3 md:gap-4">
+          {categories.map((item) => (
+            <Button key={item} className={categoryButton}>
+              {item}
+            </Button>
+          ))}
         </div>
-        <Button>
+
+        {/* Search */}
+        <Button className="bg-transparent border-0 p-0">
           <img src={Search} alt="search" />
         </Button>
       </div>

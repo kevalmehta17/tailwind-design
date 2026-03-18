@@ -1,4 +1,3 @@
-import Footer from '../../layout/Footer/Footer';
 import Navbar from '../../layout/Navbar/Navbar';
 import AboutUs from './components/AboutUs/AboutUs';
 import BestSeller from './components/BestSeller/BestSeller';
@@ -8,15 +7,13 @@ import Testimonial from './components/Testimonial/Testimonial';
 
 const Home = () => {
   return (
-    //TODO: GAP ISSUE
-    <div className="flex flex-col  gap-5 md:gap-9  lg:gap-16 xl:gap-24  ">
+    <div className="flex flex-col gap-[32px] md:gap-[50px] lg:gap-[68px] xl:gap-[100px]">
       <Navbar />
       <Hero />
       <AboutUs />
       <BestSeller />
       <Testimonial />
       <OfferBanner />
-      <Footer />
     </div>
   );
 };

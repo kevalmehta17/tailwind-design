@@ -42,6 +42,10 @@
   --light-gray: #EFEFEF;
   --hero-background-primary: #fff6fd;
   --hero-background-secondary:#f0f0f0;
+  --offerBanner-background: linear-gradient(261.99deg,
+    #d1068c -18.97%,
+    #1310a6 43.5%,
+    #7e1b5c 102.32%);
   --heading-primary:#000000;
   --button-primary: #000000;
   --button-secondary: var(--white);
@@ -56,3 +60,42 @@
   --badge-background: #f8f9fe;
   --rating-color: #faaa4c;
 }
+
+
+/* import arrowRight from '../../../../assets/icons/arrowRightBlack.svg';
+import Button from '../../../../components/Button';
+
+const OfferBanner = () => {
+  return (
+    <div className="[background-image:var(--offerBanner-background)] flex flex-col justify-center items-center text-white xs:py-[20px] xs:px-[12px] sm:py-[28px] sm:px-[24.5px] md:py-[40px] md:px-[36px] lg:py-[44px] lg:px-[76px] xl:py-[50px] xl:px-[141px]">
+      <div className="flex flex-col items-center text-center xs:gap-[6px] sm:gap-[7.5px] md:gap-[9px] lg:gap-[11px] xl:gap-[15px]">
+        <h1 className="leading-[100%] font-bold tracking-[-1%] text-white xs:text-[22px] xs:leading-[110%] sm:text-[30px] md:text-[50px] xl:text-[60px]">
+          Don't Miss Out: Limited-Time Offer!
+        </h1>
+        <h3 className="font-normal tracking-[-1%] text-white xs:text-[14px] xs:leading-[130%] sm:text-[18.5px] md:text-[34px] lg:text-[30px] xl:text-[38px] xl:leading-[120%] leading-[120%]">
+          Enjoy 20% off your first purchase with code{' '}
+          <span className="font-bold xs:text-[14px] sm:text-[18.5px] md:text-[34px] lg:text-[30px] xl:text-[38px]">
+            GLOW20
+          </span>
+        </h3>
+      </div>
+      <div className="flex flex-col items-center justify-center text-center xs:py-[16px] xs:px-[6px] sm:py-[25px] sm:px-[10px] md:py-[36px] md:px-[12px] lg:py-[50px] lg:px-[15px]">
+        <span className="font-normal tracking-[-1%] text-white xs:text-[20px] xs:leading-[120%] sm:text-[26px] md:text-[54px] lg:text-[62px] xl:text-[86.67px]">
+          Hurry, Offer Ends In 12hrs 30mins 56Seconds
+        </span>
+      </div>
+      <div className="bg-white rounded-[71.38px] border border-[#cfcfcf] xs:rounded-[40px]">
+        <Button className="flex flex-row items-center justify-center bg-transparent border-0 font-light tracking-[-1%] text-black xs:text-[15px] xs:px-[10px] xs:py-[8px] xs:gap-[5px] sm:text-[20px] sm:px-[13px] sm:py-[11px] md:text-[24px] md:px-[18px] md:py-[14px] lg:text-[26px] lg:px-[18px] lg:py-[15px] lg:gap-[6px] xl:text-[32px] xl:py-[19.45px] xl:px-[21.45px] xl:gap-[7px] xl:leading-[120%]">
+          Shop the Sale
+          <img 
+            src={arrowRight} 
+            alt="arrow right" 
+            className="xs:w-[16px] xs:h-[16px] sm:w-[24px] sm:h-auto md:w-[28px] md:h-[28px]" 
+          />
+        </Button>
+      </div>
+    </div>
+  );
+};
+
+export default OfferBanner; */
