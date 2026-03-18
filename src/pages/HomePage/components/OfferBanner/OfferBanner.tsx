@@ -15,7 +15,6 @@ const OfferBanner = () => {
     >
       {/* Heading */}
       <div className="flex flex-col items-center text-center gap-[7.5px] sm:gap-[9px] md:gap-[11px] lg:gap-[15px]">
-        
         <h1
           className="
             font-bold leading-[100%] tracking-[-0.01em]

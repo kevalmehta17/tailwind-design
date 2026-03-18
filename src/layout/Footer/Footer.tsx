@@ -4,10 +4,8 @@ import Input from "../../components/Input";
 const Footer = () => {
   return (
     <div id="contact" className="w-full bg-black text-white">
-      
       {/* Inner Container */}
       <div className="max-w-[1200px] mx-auto w-full">
-        
         {/* Subscription */}
         <div
           className="
@@ -52,7 +50,7 @@ const Footer = () => {
 
             <Button
               className="
-                bg-black text-white border-none
+                bg-black text-white border-none m-[2px]
                 rounded-[5px]
                 min-w-[72px] md:min-w-[88px]
                 h-[38px] md:h-[44px]
@@ -65,20 +63,20 @@ const Footer = () => {
             </Button>
           </div>
         </div>
+      </div>
 
-        {/* Divider */}
-        <hr className="border border-[#727272]" />
+      {/* Divider */}
+      <hr className="border-[1px] w-screen border-solid border-[#727272]" />
 
-        {/* Copyright */}
-        <div
-          className="
-            text-center
+      {/* Copyright */}
+      <div
+        className="
+            text-center max-w-[1200px] mx-auto w-full
             text-[11px] sm:text-[13px] md:text-[16px] lg:text-[17px]
             py-[18px] sm:py-[22px] md:py-[26px]
           "
-        >
-          © 2024, Xtragleam Skincare. All Right Reserved
-        </div>
+      >
+        © 2024, Xtragleam Skincare. All Right Reserved
       </div>
     </div>
   );

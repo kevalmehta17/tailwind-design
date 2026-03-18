@@ -7,7 +7,7 @@ function App() {
       <div className="pb-0 px-5 py-12 sm:px-8 md:px-[75px] md:pt-[50px] ">
         <Home />
       </div>
-      <Footer />{' '}
+      <Footer />
     </div>
   );
 }
