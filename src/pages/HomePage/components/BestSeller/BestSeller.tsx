@@ -40,7 +40,7 @@ const BestSeller = () => {
             {/* Main Product Card */}
             <div className="flex min-h-[286px] flex-1 flex-col justify-between px-5 py-[35px] max-[769px]:min-h-[248px] max-[769px]:px-4 max-[769px]:py-[26px] max-[426px]:min-h-[210px] max-[426px]:px-3 max-[426px]:py-[18px] max-[322px]:min-h-[180px] max-[322px]:px-[10px] max-[322px]:py-[14px]">
               {/* Card Top */}
-              <div className="flex items-start justify-bet  ween">
+              <div className="flex items-start justify-between">
                 <div>
                   <p className="mb-1.5 text-[20px] font-normal leading-[98%] tracking-[-0.01em] text-black max-[769px]:text-[18px] max-[769px]:leading-[95%] max-[426px]:text-[15px] max-[426px]:leading-[100%] max-[322px]:text-[13px]">
                     {product.badge}
